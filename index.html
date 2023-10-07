@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabellina</title>
+    <style>
+        .label{
+            padding: 10px;
+            font-size: large;
+        }
+        #pulsante{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./tabellaPhP.php" method="get">
+        <label for="nome" id="label">Nome:</label>
+        <input type="text" name="nome" id="nome"  required>
+        <label for="numero" id="label">Numero:</label>
+        <input type="number" name="numero" id="numero" required>
+        <input type="submit" id="pulsante" value="Calcola Tabellina">
+    </form>
+    
+</body>
+</html>
